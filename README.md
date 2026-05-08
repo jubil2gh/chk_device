@@ -7,6 +7,10 @@
   - pip install scipy
     
 - Test
-  - python query_snd_devices.py
-  - python recorder.py {DEV_ID} {MIC_CH}
-  - python wave_play.py {DEV_ID} {FILE_NAME}
+  - App
+    - upc_spk_test
+    - upc_mic_test </br></br>
+  - Code
+    - python query_snd_devices.py
+    - python upc_spk_test.py
+    - python upc_mic_test.py
