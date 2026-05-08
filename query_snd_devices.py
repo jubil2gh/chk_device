@@ -1,4 +1,7 @@
 import sounddevice as sd
-import soundfile as sf
+import sys
 
-print(sd.query_devices())
+# print(sd.query_devices())
+
+print(len(sys.argv))
+print(sys.argv[0])
